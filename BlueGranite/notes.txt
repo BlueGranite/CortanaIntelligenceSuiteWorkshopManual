@@ -1,7 +1,7 @@
-I just went through Toddís hands-on lab for our workshops and took a few quick notes. Passing them along in case theyíre useful.
+I just went through Todd‚Äôs hands-on lab for our workshops and took a few quick notes. Passing them along in case they‚Äôre useful.
 
 1) Screenshots need to be updated in many places
-2) Make sure you retain the VM ìcortanaî user and password as it's needed in many later exercises
+2) Make sure you retain the VM ‚Äúcortana‚Äù user and password as it's needed in many later exercises
 3) Exercise 3 - Copy Data (PREVIEW) tool, Monitor and Manage, etc. in ADF - does not open in Chrome, so use IE on VM
 4) Exercise 3 - "From the File format settings tab, leave everything as default except check the box Column name in the first data row"
                - Box is now checked by default
@@ -13,8 +13,8 @@ I just went through Toddís hands-on lab for our workshops and took a few quick n
 8) Exercise 6 - "Type or copy/paste the URL of your Azure HDInsight Spark cluster, which can be found from the address bar when connected to the Azure HDInsight Spark cluster in previous Exercise 5."
                - Get Spark cluster URL early in lab 5 and retain for lab 6
 9) Exercise 6 - PBI now has Import vs DQ option for Spark. Not specified in lab.
-10) Exercise 7 - Web App also requires Azure ML Workspace name
-11) Exercise 7 - Obtain "ML Workspace ID" and "ML Service ID" from either Batch or Request/Response URI
+10) Exercise 7 - Web App requires Azure ML Workspace & Service ID
+               - Obtain "ML Workspace ID" and "ML Service ID" from either Batch or Request/Response URI
                - do not enter full URI for Service as Todd's code takes care of building the URI
                - https://{0}.services.azureml.net/subscriptions/{1}/services/{2}/execute?api-version=2.0&details=true
                - {1} = Workspace
